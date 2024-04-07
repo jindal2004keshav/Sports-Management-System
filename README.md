@@ -2,8 +2,8 @@
 
 <!-- First Row -->
 <p align="center">
-    <img src="Screenshots/Screenshot%202024-04-07%20124757.png" alt="Screenshot 1" width="500" />
-    <img src="Screenshots/Screenshot%202024-04-07%20124938.png" alt="Screenshot 2" width="500" />
+    <img src="Screenshots/Screenshot%202024-04-07%20124757.png" alt="Screenshot 1" width="300" />
+    <img src="Screenshots/Screenshot%202024-04-07%20124938.png" alt="Screenshot 2" width="300" />
 </p>
 
 <p align="center">
