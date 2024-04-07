@@ -7,14 +7,14 @@
 </p>
 
 <p align="center">
-    <img src="Screenshots/Screenshot%202024-04-07%20124953.png" alt="Screenshot 3" width="500" />
-    <img src="Screenshots/Screenshot%202024-04-07%20125004.png" alt="Screenshot 2" width="500" />
+    <img src="Screenshots/Screenshot%202024-04-07%20124953.png" alt="Screenshot 3" width="300" />
+    <img src="Screenshots/Screenshot%202024-04-07%20125004.png" alt="Screenshot 2" width="300" />
 </p>
 
 <!-- Second Row -->
 <p align="center">
-    <img src="Screenshots/Screenshot%202024-04-07%20125015.png" alt="Screenshot 5" width="500" />
-    <img src="Screenshots/Screenshot%202024-04-07%20125033.png" alt="Screenshot 6" width="500" />
+    <img src="Screenshots/Screenshot%202024-04-07%20125015.png" alt="Screenshot 5" width="300" />
+    <img src="Screenshots/Screenshot%202024-04-07%20125033.png" alt="Screenshot 6" width="300" />
 </p>
 
 Welcome to the Sports Management System project repository! This project is designed to provide a comprehensive sports management solution using React for the frontend and PHP for the backend.
