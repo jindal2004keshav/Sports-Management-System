@@ -1,0 +1,24 @@
+.home-event-list{
+    height: 70vh;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-bottom-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    
+    overflow-y: scroll;
+}
+
+.home-event-list::-webkit-scrollbar {
+    display: none; 
+}
+
+.No-news-event-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}

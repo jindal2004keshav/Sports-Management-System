@@ -1,0 +1,84 @@
+.event-list {
+  /* margin-top: 2rem; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  height: 190vh;
+}
+
+.event-list-container{
+  /* margin: 0px; */
+  padding-top: 2rem;
+  background: linear-gradient(to top, #000000 10%, #00ff00 50%, #000000 100%);;
+}
+
+.event-list-item {
+  width: 94%;
+  height: 30%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 2rem;
+  background-position: center;
+  box-shadow: 10px 50px 7px rgba(0, 0, 0, 0.2); 
+  transform: perspective(1000px) rotateX(10deg); 
+  transition: transform 0.5s ease; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: xx-large;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.event-list-item h2 {
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px; 
+  text-align: center;
+}
+
+.event-list-item:hover{
+  cursor:pointer
+}
+
+.event-list-item:nth-child(1) {
+  background-image: url('https://wallpaper.dog/large/10716242.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.event-list-item:nth-child(2) {
+  background-image: url('https://swall.teahub.io/photos/small/201-2010399_sports-vintage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.event-list-item:nth-child(3) {
+  background-image: url('https://images5.alphacoders.com/133/1338699.png');
+  background-size: cover;
+}
+
+.modal-events-list {
+  width: 95%;
+  margin-top: 0.9rem;
+  /* margin: 0.2rem; */
+  /* padding: 0.5rem; */
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 80vh;
+  background-color: bisque;
+  border-radius: 37px;
+background: #e0e0e0;
+box-shadow: inset 10px -10px 28px #9b9b9b,
+            inset -10px 10px 28px #ffffff;
+}
+
+.home-event-item a{
+  text-decoration: none;
+}
