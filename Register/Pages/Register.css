@@ -1,0 +1,54 @@
+.register-container{
+    width: 100%;
+    min-height: 58.2vh;
+    background-image: url(https://www.bhmpics.com/downloads/4k-black-background-Wallpapers/35.avvxsej8i1z-ujznnjg4dwtakygwqqbcpri7twxjx2un1vzsl6lepfgptrj6nthg-dxfhppdhqzgdhx6_4zmwziu-kf9hvo6dma8zrzlf_6kskeqt7yrkricviffetoj7pcnxl5dj0582jjee-sjtxtftxdwlakj7etieoea_gemezygnzpzwzsaxyokvq9lma=w640-h360.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+    padding-bottom: 3rem;
+}
+
+
+.liveeventdatabase-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    /* background-image: url("https://wallpapers.com/images/hd/dark-desktop-z7l8gx7gejwxihzb.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-bottom: 2rem; */
+  }
+  
+  .liveeventdatabase-container::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 50px; 
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 10) 0%, rgba(0, 0, 0, 0) 100%);
+    }
+
+    .liveeventdatabase-container-parent{
+        position: relative;
+    }
+    
+    .liveeventdatabase-container::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 50px; 
+      background: linear-gradient(to top, rgba(0, 0, 0, 10) 0%, rgba(0, 0, 0, 0) 100%);
+    }
+
+    .register-event-heading{
+        color:white;
+        padding: 2rem;
+    }

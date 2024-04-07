@@ -1,0 +1,12 @@
+.register-select-sport{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0; 
+    font-size: inherit; 
+    color: inherit;
+    /* border-left: 2px solid black */
+}
