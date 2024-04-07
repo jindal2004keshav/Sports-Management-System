@@ -1,0 +1,160 @@
+:root {
+    --scard-height: 300px;
+    --scard-width: calc(var(--scard-height) / 1.5);
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+.list-cricket{
+  width: 100%;
+  /* height: 550%; */
+    opacity: 0;
+    transition: all 0.5s;
+    position: absolute;
+    z-index: -1;
+    top:-14rem;
+    right: -0.7rem;
+}
+
+.list-chess{
+  top:-16rem;
+}
+
+.list-football{
+  top:-16rem;
+}
+
+.list-carrom{
+  top:-14rem;
+}
+
+.list-tt{
+  top:-16rem;
+}
+
+.list-athletics{
+  top:-16rem;
+}
+
+.scard:hover .list-cricket {
+  opacity: 1;
+  transform: translate3d(0%, -30%, 100px);
+  /* transform: scale(1.5); */
+}
+
+
+  .container-sport-list {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-start;
+    background: #191c29;
+    background: linear-gradient(to top, #000000 0%, #191c29 50%, #000000 100%);
+    gap: 5rem;
+    padding-bottom: 8rem;
+    overflow-y: hidden;
+  }
+  .scard {
+    width: 15vw;
+    height: 15vh;
+    position: relative;
+    top: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 36px;
+    perspective: 2500px;
+    margin: 0 50px;
+    margin-bottom: 15rem;
+  }
+
+  
+  .cover-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .wrapper {
+    transition: all 0.5s;
+    position: absolute;
+    top:-16rem;
+    width: 100%;
+    z-index: -1;
+    height: 45vh;
+  }
+  
+  .scard:hover .wrapper {
+    transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+    box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  }
+  
+  .wrapper::before,
+  .wrapper::after {
+    content: "";
+    opacity: 0;
+    width: 100%;
+    height: 80px;
+    transition: all 0.5s;
+    position: absolute;
+    left: 0;
+  }
+  .wrapper::before {
+    top: 0;
+    height: 100%;
+    background-image: linear-gradient(
+      to top,
+      transparent 46%,
+      rgba(12, 13, 19, 0.5) 68%,
+      rgba(12, 13, 19) 97%
+    );
+  }
+  .wrapper::after {
+    bottom: 0;
+    opacity: 1;
+    background-image: linear-gradient(
+      to bottom,
+      transparent 46%,
+      rgba(12, 13, 19, 0.5) 68%,
+      rgba(12, 13, 19) 97%
+    );
+  }
+  
+  .scard:hover .wrapper::before,
+  .wrapper::after {
+    opacity: 1;
+  }
+  
+  .scard:hover .wrapper::after {
+    height: 120px;
+  }
+  .title {
+    width: 100%;
+    position: absolute;
+    bottom: 25px;
+    transition: transform 0.5s;
+  }
+  .scard:hover .title {
+    transform: translate3d(0%, -50px, 100px);
+  }
+  
+  .character {
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    position: absolute;
+    z-index: -1;
+    /* top:10rem; */
+  }
+  
+  .scard:hover .character {
+    opacity: 1;
+    transform: translate3d(0%, -30%, 100px);
+  }
+  

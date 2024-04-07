@@ -1,0 +1,25 @@
+.footer-logo-image{
+    width:5rem;
+    height: 5rem;
+}
+
+.footer-logo{
+  height: auto;
+  width: 20%;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+  /* margin-bottom: auto; */
+  border-right: 1px solid white;
+}
+
+.footer-logo-title{
+  width: 100%;
+  font-size: large;
+}
+
+.footer-logo p{
+  font-size: x-small;
+  width:70%;
+}

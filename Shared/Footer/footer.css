@@ -1,0 +1,18 @@
+/* Footer.css */
+
+.main-footer {
+  /* align-self: flex-end; */
+    background: linear-gradient(to top, #1b1a1a, black); /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px;
+    margin-bottom: 0;
+    text-align: center; /* Align text in center */
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    height:fit-content;
+    display: flex;
+    gap: 1rem;
+    /* position: absolute;
+    bottom: 0; */
+  }
